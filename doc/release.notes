@@ -4,6 +4,14 @@
  *
  *                  EOH
 
+ - Updating alarm limits on Lac thresholds for 4 channels:
+     Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_13_3_3:  upper warning limit changed from  2.8 to 2.9
+     Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_3_7_6:   upper warning limit changed from  2.75 to 2.85
+     Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_13_3_2:  upper warning limit changed from  2.75 to 2.85
+     Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_1_1:   upper warning limit changed from  2.75 to 2.85
+ - Updating warning limit on CalXAdcPedRMS_LEX8_TH1:
+       upper warning limit changed from      5.85 to 5.95 
+
  AlarmsCfg-07-01-00 27-Jan-2024 monzani Tagging from new repository on github
  -AlarmsCfg repository was moved to https://github.com/fermi-lat/AlarmsCfg
       No changes to actual alarms. SConscript was removed because unneeded with git
