@@ -10,7 +10,8 @@
      Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_13_3_2:  upper warning limit changed from  2.75 to 2.85
      Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_1_1:   upper warning limit changed from  2.75 to 2.85
  - Updating warning limit on CalXAdcPedRMS_LEX8_TH1:
-       upper warning limit changed from      5.85 to 5.95 
+       upper warning limit changed from      5.85 to 5.95      
+  Relevant threads https://www-glast.stanford.edu/protected/mail/datamon/4038.html
 
  AlarmsCfg-07-01-00 27-Jan-2024 monzani Tagging from new repository on github
  -AlarmsCfg repository was moved to https://github.com/fermi-lat/AlarmsCfg
