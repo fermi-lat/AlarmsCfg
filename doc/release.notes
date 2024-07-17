@@ -3,7 +3,7 @@
  * Coordinator: Luca Baldini
  *
  *                  EOH
-
+AlarmsCfg-07-01-03 17-Jul-2024 maldera
  -Updating alarm limits on Mean_FastMon_SpaceCraft_Altitude:
    	   low warning limit changed from 500 to 480
  Relevant threads:https://www-glast.stanford.edu/protected/mail/datamon/4445.html
