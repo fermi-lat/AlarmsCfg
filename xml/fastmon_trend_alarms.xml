@@ -6,7 +6,7 @@
   <alarmList group="SpaceCraft" name="SpaceCraft base" enabled="True">
     <alarmSet name="Time::Mean_FastMon_SpaceCraft_Altitude" enabled="True">
       <alarm function="values" enabled="True">
-	<warning_limits min="500" max="600"/>
+	<warning_limits min="480" max="600"/>
 	<error_limits   min="450"  max="700"/>
       </alarm> 
     </alarmSet>    
