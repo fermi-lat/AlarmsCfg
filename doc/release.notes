@@ -3,6 +3,12 @@
  * Coordinator: Luca Baldini
  *
  *                  EOH
+
+
+ - Updating alarm limits on Lac threshold:
+     Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_7_6:  upper warning limit changed from  2.75 to 2.85
+   Relevant thread:  https://www-glast.stanford.edu/protected/mail/datamon/4838.html 
+
 AlarmsCfg-07-01-02 17-Jul-2024 maldera
  -Updating alarm limits on Mean_FastMon_SpaceCraft_Altitude:
    	   low warning limit changed from 500 to 480

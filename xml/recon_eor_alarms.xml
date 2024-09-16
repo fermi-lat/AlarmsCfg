@@ -39,7 +39,7 @@
 
 
     
-    <alarmSet name="Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_*_*_*" exclude="[846,1311,1172,1051,1333,1314,863,1332,140, 13510, 243, 311]" enabled="True">
+    <alarmSet name="Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_*_*_*" exclude="[846,1311,1172,1051,1333,1314,863,1332,140, 13510, 243, 311,376]" enabled="True">
       <alarm function="leftmost_edge" enabled="True">
 	<condition name="min_entries" value="750"/>
 	<parameter name="window_half_width" value="12"/>
@@ -174,6 +174,18 @@
 
 <!-- 23 April 2024  relaxing warning limits on xtal  3 1 1   -->  
     <alarmSet name="Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_1_1" enabled="True">
+      <alarm function="leftmost_edge" enabled="True">
+	<condition name="min_entries" value="750"/>
+	<parameter name="window_half_width" value="12"/>
+	<parameter name="threshold" value="15"/>
+	<parameter name="start_x" value="0.5"/>
+	<warning_limits min="1.25" max="2.85"/>
+	<error_limits min="1.0" max="3.0"/>
+      </alarm>
+    </alarmSet>
+
+<!--16 Sept 2024  relaxing warning limits on xtal  3 7 6   -->  
+    <alarmSet name="Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_7_6" enabled="True">
       <alarm function="leftmost_edge" enabled="True">
 	<condition name="min_entries" value="750"/>
 	<parameter name="window_half_width" value="12"/>
