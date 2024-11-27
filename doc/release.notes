@@ -4,6 +4,18 @@
  *
  *                  EOH
 
+AlarmsCfg-07-01-04 10-Nov-2024 maldera
+ - Updating alarm limits on Lac threshold:
+        Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_3_5_0:  upper warning limit changed from  2.9 to 3.0 (error limit rised from 3.0 to 3.5)
+	Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_11_1_11:  upper warning limit changed from  2.8 to 2.9 
+
+ - Relaxing warning limits for acd ped deviaton for tile 49, pmt B
+   	AcdPedPedMeanDeviation_PMTB_TH1:  upper warning limit changed from 8 to 10 (for channel 49)  channels 49 and 81 exluded from the computation of the y_rms
+
+ Relevant thread: https://www-glast.stanford.edu/protected/mail/datamon/5305.html
+  
+
+
 AlarmsCfg-07-01-03 16-Sep-2024 maldera
  - Updating alarm limits on Lac threshold:
         Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_3_7_6:  upper warning limit changed from  2.75 to 2.85
