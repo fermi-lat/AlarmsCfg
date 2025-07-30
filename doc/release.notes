@@ -5,11 +5,14 @@
  *                  EOH
 
 AlarmsCfg-07-01-06 29-Jul-2025 maldera
- - updating limits on CAL ped deviations for channmel 824 (Tower 4,Layer 2, column 4, face 0) :
+  - updating limits on CAL ped deviations for channmel 824 (Tower 4,Layer 2, column 4, face 0) :
         CalXAdcPedPedMeanDeviation_HEX1_TH1  upper warning limit changed from 2.5 to 6,  upper error limit from 5 to 7
 	CalXAdcPedPedMeanDeviation_HE8_TH1:  upper warning limit changed from 20 to 40
 
- Relevant thread: https://www-glast.stanford.edu/protected/mail/datamon/6425.html
+  -Relaxing alarm limits for  cal Lac threshold:
+ 	Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_10_7_6: upper warning limit changed from 2.85 to 3, error limit from 3 to 3.5
+
+   Relevant thread: https://www-glast.stanford.edu/protected/mail/datamon/6425.html
 
 AlarmsCfg-07-01-05 19-Mar-2025 maldera
  - Updating alarm limits on Lac threshold:
