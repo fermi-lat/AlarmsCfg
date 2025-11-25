@@ -2,4 +2,13 @@
 
 <alarm_exceptions>
 
+<alarm name="CrateNumber_TH1" algorithm="x_average">
+    <exception  status_on_violation="error"/>
+ </alarm>
+
+  <alarm name="Delta_CCSDSTime_EvtTime_Epu1_TH1" algorithm="x_min_bin">
+    <exception  status_on_violation="error"/>
+ </alarm>
+
+  
 </alarm_exceptions>

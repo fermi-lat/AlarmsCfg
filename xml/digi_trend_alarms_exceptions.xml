@@ -18,4 +18,12 @@
     <exception identifier="(15, 32)" status_on_violation="clean"/>
   </alarm>
 
+ <!--Added by Simone Maldera, Nov 21, 2025.
+  Noisy strip.  -->
+  <alarm name="OutF_Normalized_AcdHit_AcdTile" algorithm="values">
+    <exception identifier="(52)" status_on_violation="clean"/>
+  </alarm>
+
+
+  
 </alarm_exceptions>

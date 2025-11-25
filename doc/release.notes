@@ -4,6 +4,25 @@
  *
  *                  EOH
 
+AlarmsCfg-07-01-07 25-Nov-2025 maldera
+  - masking EP1 errors in digi_eor_alarms_exceptions.xml
+      CrateNumber_TH1
+      Delta_CCSDSTime_EvtTime_Epu1_TH1
+      (will return an error if they go back to their nominal value)
+
+  -ACD tile 52 PMTB:
+    AcdPedPedMeanDeviation_PMTB_TH1  y_values -> limits changed to:  [5 | 8|-| 20 |25]
+    AcdPedPedMeanDeviation_PMTB_TH1  y_rms    -> excluding tile 52
+    masking tile 52 in OutF_Normalized_AcdHit_AcdTile
+
+
+  - Updating Lac threshold  limits for two CAL channles 
+    Lac_Thresholds_FacePos_TH1_TowerCalLayerCalColumn_4_6_3 lower warning limt rised from  2.75 to 2.9
+    Lac_Thresholds_FaceNeg_TH1_TowerCalLayerCalColumn_13_3_11 wer warning limt rised from  2.75 to 2.9
+
+
+
+
 AlarmsCfg-07-01-06 29-Jul-2025 maldera
   - updating limits on CAL ped deviations for channmel 824 (Tower 4,Layer 2, column 4, face 0) :
         CalXAdcPedPedMeanDeviation_HEX1_TH1  upper warning limit changed from 2.5 to 6,  upper error limit from 5 to 7
